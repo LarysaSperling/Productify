@@ -2,6 +2,7 @@ import HeaderHero from "./components/headerHero";
 import Customers from "./components/customers";
 import PlanManage from "./components/planmanage";
 import Features from "./components/features";
+import Stats from "./components/stats";
 
 
 export default function App() {
@@ -11,6 +12,7 @@ export default function App() {
       <Customers />
       <PlanManage />
        <Features />
+       <Stats />
     </>
   );
 }
