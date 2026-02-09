@@ -118,7 +118,7 @@
 .btn{
   height: 36px;
   padding: 0 16px;
-  border-radius: 10px;
+  border-radius:4px;
   border: none;
   background: rgba(94,128,254,0.15);
   color: #5E80FE;
@@ -134,26 +134,28 @@
 
 
 .hero{
+  display: flex;
+  align-items: center;
   position: relative;
   margin-top: 0;
   overflow: hidden;
    min-height: 640px;
-  padding: 110px 0 60px;
 
   background-repeat: no-repeat;
-  background-position: bottom center;
-  background-size:cover;
+  background-position: center;
+  background-size: cover;
   border-top: 1px solid rgba(94,128,254,0.15);
+  padding: 0; 
 }
 
 
 .containerHero{
   max-width: 1120px;
   margin: 0 auto;
-  padding: 0 20px;
+   padding: 50px 20px 100px;
+   width: 100%;
   text-align: center;
-  min-height:auto;
-  position: static;
+  position: relative;
 }
 
 
