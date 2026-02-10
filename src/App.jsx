@@ -4,6 +4,7 @@ import PlanManage from "./components/planmanage";
 import Features from "./components/features";
 import Stats from "./components/stats";
 import Blog from "./components/blog";
+import Testimonials from "./components/testimonials";
 
 
 export default function App() {
@@ -14,7 +15,9 @@ export default function App() {
       <PlanManage />
        <Features />
        <Stats />
-       <Blog />  
+       <Blog />
+       <Testimonials />
+  
     </>
   );
 }
