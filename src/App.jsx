@@ -5,6 +5,8 @@ import Features from "./components/features";
 import Stats from "./components/stats";
 import Blog from "./components/blog";
 import Testimonials from "./components/testimonials";
+import CustomerHelp from "./components/customerHelp";
+
 
 
 export default function App() {
@@ -17,7 +19,7 @@ export default function App() {
        <Stats />
        <Blog />
        <Testimonials />
-  
+      <CustomerHelp />
     </>
   );
 }
