@@ -8,6 +8,9 @@ import Testimonials from "./components/testimonials";
 import CustomerHelp from "./components/customerHelp";
 import GetStarted from "./components/getStarted";
 import Newsletter from "./components/newsletter";
+import Footer from "./components/footer";
+
+
 
 export default function App() {
   return (
@@ -22,6 +25,7 @@ export default function App() {
       <CustomerHelp />
       <GetStarted />
       <Newsletter />
+      <Footer />
     </>
   );
 }
