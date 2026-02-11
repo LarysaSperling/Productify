@@ -7,7 +7,7 @@ import Blog from "./components/blog";
 import Testimonials from "./components/testimonials";
 import CustomerHelp from "./components/customerHelp";
 import GetStarted from "./components/getStarted";
-
+import Newsletter from "./components/newsletter";
 
 export default function App() {
   return (
@@ -21,6 +21,7 @@ export default function App() {
        <Testimonials />
       <CustomerHelp />
       <GetStarted />
+      <Newsletter />
     </>
   );
 }
